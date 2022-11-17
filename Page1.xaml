@@ -10,10 +10,10 @@
 
     <Grid>
         <Label Margin="5" Foreground="White" Background="#FF4F81BD" FontSize="16">Edit Case 1</Label>
-        <TextBox Margin="10,47,0,0" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Width="107" FontSize="16">
+        <TextBox Margin="10,66,0,0" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Width="107" FontSize="16">
             Textbox1
         </TextBox>
-        <TextBox Margin="140,47,0,0" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Width="107" FontSize="16">
+        <TextBox Margin="140,66,0,0" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Width="107" FontSize="16">
             Textbox2
         </TextBox>
     </Grid>

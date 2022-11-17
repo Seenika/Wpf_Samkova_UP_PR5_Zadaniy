@@ -10,8 +10,8 @@
 
     <Grid Background="#FF4F81BD">
 
-        <Grid Margin="33,32,0,0" Height="116" VerticalAlignment="Top" HorizontalAlignment="Left" Width="239" Background="White">
-            <Label Margin="86,0,0,0" FontSize="22" Foreground="Black" Height="47" VerticalAlignment="Center" HorizontalAlignment="Left" Width="148">Grid</Label>
+        <Grid Margin="10,10,0,0" Height="175" VerticalAlignment="Top" HorizontalAlignment="Left" Width="360" Background="White">
+            <Label FontSize="22" Foreground="Black" Height="48" VerticalAlignment="Center" HorizontalAlignment="Center" Width="56">Grid</Label>
         </Grid>
     </Grid>
 </Page>

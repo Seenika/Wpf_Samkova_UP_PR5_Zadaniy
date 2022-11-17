@@ -19,22 +19,22 @@
         </Grid>
 
 
-        <Grid Grid.Column="1">
+        <Grid Grid.Column="1" Margin="10,25,10,25" Background="#FF4F81BD">
             <Grid.RowDefinitions>
                 <RowDefinition Height="59*"/>
                 <RowDefinition Height="158*"/>
             </Grid.RowDefinitions>
 
-            <Frame Grid.Column="0" Source="Page1.xaml" Margin="36,26,36,0" BorderThickness="2"/>
+            <Frame Grid.Column="0" Source="Page1.xaml" BorderThickness="2"/>
 
             <Grid Grid.Row="1">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="365*"/>
-                    <ColumnDefinition Width="239*"/>
+                    <ColumnDefinition Width="399*"/>
+                    <ColumnDefinition Width="185*"/>
                 </Grid.ColumnDefinitions>
 
-                <Frame Grid.Column="0" Source="Page2.xaml" Margin="36,-3,5,28" BorderThickness="2"/>
-                <Frame Source="Page3.xaml" Margin="358,-3,35,28" BorderThickness="2" Grid.ColumnSpan="2"/>
+                <Frame Grid.Column="0" Source="Page2.xaml"/>
+                <Frame Grid.Column="1" Source="Page3.xaml"/>
             </Grid>
         </Grid>
 
