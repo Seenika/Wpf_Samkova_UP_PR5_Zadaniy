@@ -16,20 +16,15 @@ using System.Windows.Shapes;
 namespace Wpf_Samkova_UP_PR5_Zadaniy
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Page5.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Page5 : Page
     {
-        public MainWindow()
+        public Page5()
         {
             InitializeComponent();
         }
 
-        private void but1_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 window1 = new Window1();
-            window1.Show();
-            this.Close();
-        }
+       
     }
 }

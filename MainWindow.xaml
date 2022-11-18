@@ -13,9 +13,22 @@
         </Grid.ColumnDefinitions>
 
         <Grid Background="#FF4F81BD" OpacityMask="#FF3F6697" Margin="17,25,0,25">
-            <TextBlock TextWrapping="Wrap" Margin="5,5,0,5" Foreground="White">
-            MainWindow
+            <TextBlock TextWrapping="Wrap" Margin="47,5,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="132">
+            -Case 1
             </TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="47,40,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="132">
+            -Case 2
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="47,75,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="132">
+            -Case 3
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="47,110,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="132">
+            -Case 4
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="47,145,0,0" Foreground="White" FontSize="20" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="132">
+            -Case 5
+            </TextBlock>
+            <Button x:Name="but1" Content="Задание 3" Margin="5,0,5,5" Click="but1_Click" Background="White" BorderBrush="#FF797F86" Height="35" VerticalAlignment="Bottom"/>
         </Grid>
 
 
