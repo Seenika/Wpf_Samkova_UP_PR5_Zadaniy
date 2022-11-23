@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Задание 4" Height="450" Width="800">
     <Grid>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="91*"/>
             <ColumnDefinition Width="309*"/>
@@ -17,6 +18,7 @@
                 <RowDefinition Height="85*"/>
                 <RowDefinition Height="132*"/>
             </Grid.RowDefinitions>
+            <Button x:Name="But" Content="Задание 5" Grid.Row="1" Margin="0,0,0,10" HorizontalAlignment="Center" Width="162" Height="36" VerticalAlignment="Bottom"/>
             <Image Source="/308676_lBgur9s5CP_cherry.jpg" Stretch="Fill" Margin="10,0,10,9" Height="152" VerticalAlignment="Bottom"/>
             <Label Content="Home" Margin="62,10,0,0" Grid.Row="1" Foreground="White" FontSize="18" HorizontalAlignment="Left" Width="58" Height="37" VerticalAlignment="Top"/>
             <Label Content="Inbox" Margin="62,47,0,0" Grid.Row="1" Foreground="White" FontSize="18" HorizontalAlignment="Left" Width="58" Height="37" VerticalAlignment="Top"/>
@@ -25,13 +27,13 @@
             <Label Content="Settings" Margin="62,158,0,0" Grid.Row="1" Foreground="White" FontSize="18" HorizontalAlignment="Left" Width="96" Height="37" VerticalAlignment="Top"/>
         </Grid>
 
-        <Grid Grid.Column="1" Background="#FF0F4E7A" HorizontalAlignment="Right" Width="618">
+        <Grid Grid.Column="1" Background="#FF0F4E7A" HorizontalAlignment="Left" Width="618">
             <Grid.RowDefinitions>
                 <RowDefinition Height="47*"/>
                 <RowDefinition Height="387*"/>
             </Grid.RowDefinitions>
-            <Label Content="C# UI Academy" Foreground="White" FontSize="18" Height="37" VerticalAlignment="Center" HorizontalAlignment="Center" Width="140"/>
-            <Grid Grid.Row="1" Background="#FFD6D6D6"/>
+            <Label Content="C# UI Academy" Foreground="White" FontSize="18" Margin="91,5,0,5" HorizontalAlignment="Left" Width="140"/>
+            <Grid Background="#FFD6D6D6" Margin="0,0,0,0" Grid.Row="1"/>
         </Grid>
 
     </Grid>
