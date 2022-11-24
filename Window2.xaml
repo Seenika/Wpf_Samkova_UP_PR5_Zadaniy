@@ -18,7 +18,7 @@
                 <RowDefinition Height="85*"/>
                 <RowDefinition Height="132*"/>
             </Grid.RowDefinitions>
-            <Button x:Name="But" Content="Задание 5" Grid.Row="1" Margin="0,0,0,10" HorizontalAlignment="Center" Width="162" Height="36" VerticalAlignment="Bottom"/>
+            <Button x:Name="But" Content="Задание 5" Grid.Row="1" Margin="0,0,0,10" HorizontalAlignment="Center" Width="162" Height="36" VerticalAlignment="Bottom" Click="But_Click"/>
             <Image Source="/308676_lBgur9s5CP_cherry.jpg" Stretch="Fill" Margin="10,0,10,9" Height="152" VerticalAlignment="Bottom"/>
             <Label Content="Home" Margin="62,10,0,0" Grid.Row="1" Foreground="White" FontSize="18" HorizontalAlignment="Left" Width="58" Height="37" VerticalAlignment="Top"/>
             <Label Content="Inbox" Margin="62,47,0,0" Grid.Row="1" Foreground="White" FontSize="18" HorizontalAlignment="Left" Width="58" Height="37" VerticalAlignment="Top"/>

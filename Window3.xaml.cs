@@ -15,20 +15,13 @@ using System.Windows.Shapes;
 namespace Wpf_Samkova_UP_PR5_Zadaniy
 {
     /// <summary>
-    /// Логика взаимодействия для Window2.xaml
+    /// Логика взаимодействия для Window3.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class Window3 : Window
     {
-        public Window2()
+        public Window3()
         {
             InitializeComponent();
-        }
-
-        private void But_Click(object sender, RoutedEventArgs e)
-        {
-            Window3 window3 = new Window3();   
-            window3.Show();
-            this.Close();
         }
     }
 }
